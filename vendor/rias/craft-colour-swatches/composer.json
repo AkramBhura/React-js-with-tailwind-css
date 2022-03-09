@@ -1,0 +1,41 @@
+{
+    "name": "percipioglobal/craft-colour-swatches",
+    "description": "Let clients choose from a predefined set of colours.",
+    "type": "craft-plugin",
+    "version": "1.3.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "colour-swatches"
+    ],
+    "support": {
+        "docs": "https://github.com/percipioglobal/craft-colour-swatches/blob/master/README.md",
+        "issues": "https://github.com/percipioglobal/craft-colour-swatches/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Percipio Global",
+            "homepage": "https://percipio.london"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "percipioglobal\\colourswatches\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Colour Swatches",
+        "handle": "colour-swatches",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/percipioglobal/craft-colour-swatches/master/CHANGELOG.md",
+        "class": "percipioglobal\\colourswatches\\ColourSwatches"
+    }
+}
